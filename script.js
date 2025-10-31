@@ -16,7 +16,7 @@ const selectDateAndTimeDiv = document.getElementById('selectDateAndTimeDiv')
 const selectDateAndTimeInput = document.getElementById('selectDateAndTimeInput')
 const headingUnderTimeAndDate = document.getElementById('selectDateAndTimeInstruction')
 const pickEndDateAndTimeBtn = document.querySelector('.pickEndDateAndTimeBtn')
-const alertSound = document.getElementById('alertSound')
+const alertSound = document.querySelector('audio')
 const toggleBtn = document.querySelector('button i')
 
     //Adding event listener to the toggle button
