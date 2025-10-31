@@ -32,9 +32,14 @@ A clean and modern Todo List App that helps you manage tasks efficiently. It inc
 ## Author
 
     Kingsley Chukwudubem
-- GitHub: 
-- Email: odukwechukwudubem@gmail.com
+- GitHub: [kingsley-001-pixel](https://github.com/kingsley-001-pixel)
+- Email: kingsleydev26@gmail.com
+- Facebook: [Kingsley](https://www.facebook.com/profile.php?id=61562790652179)
 
 ## License
 
-This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details
+This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.
+
+## Live Demo
+
+[View the Todo App](https://kingsley-001-pixel.github.io/todo-app/)
