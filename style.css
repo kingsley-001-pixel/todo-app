@@ -655,6 +655,10 @@ input::placeholder {
         margin-bottom: 0;
     }
 
+    #clearAllBtn {
+        margin-top: 30px;
+    }
+
     #opaque {
         font-size: 4.5rem;
     }
@@ -668,8 +672,6 @@ input::placeholder {
 
     #toggle {
         font-size: 1.6rem;
-        
-
     }
 
     #toggleDiv {
