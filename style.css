@@ -655,6 +655,10 @@ input::placeholder {
         margin-bottom: 0;
     }
 
+    #opaque {
+        font-size: 4.5rem;
+    }
+
     #logo {
         width: 25px;
         height: 28px;
