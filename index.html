@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div id="app">
+        <div class="line"></div>
+        <h1 id="title"><img id="logo" src="/images/logo.png" alt="Todo logo">To-Do List App</h1>
+        <div id="dateAndTimeDisplay">
+            <h4 id="dateHeader"></h4>
+            <h4 id="timeHeader"></h4>
+        </div>
+        <div id="toggleDiv"><button class="toggleOffBtn"><i class="fa-solid fa-toggle-off" id="toggle"></i></button></div>
+        <div class="inputSection">
+        <input type="text" id="inputBar" placeholder="Enter to add task">
+        <button class="pickEndDateAndTimeBtn"><i class="fa-solid fa-calendar"></i> Pick End Date and Time</button>
+        <button class="addBtn"><i class="fa fa-plus" id="add" aria-hidden="true"></i> Add Task</button>
+        <div id="selectDateAndTimeDiv">
+            <h5 id="selectDateAndTimeInstruction">Please select end date for your task</h5>
+            <input type="datetime-local" name="selectDateAndTimeInput" id="selectDateAndTimeInput">
+        </div>
+        </div>
+        
+        <div id="taskList">
+            <h3>Pending Tasks</h3>
+            <ol id="taskOl">
+            </ol>
+            <div id="clearAllDiv">
+                <button id="clearAllBtn"><i class="fa-solid fa-trash" aria-hidden="true"></i> Clear All Pending Tasks</button>
+            </div>
+        </div>
+        <div id="taskCompleted">
+            <h3>Completed Tasks</h3>
+            <ol id="taskCompletedOl">
+                
+            </ol>
+            <button id="completedDeleteAllBtn"><i class="fa-solid fa-trash" aria-hidden="true"></i>Clear all completed tasks</button>
+        </div>
+        <h1 id="opaque">Welcome</h1>
+    </div>
+    <audio src="/audio/siren-alert-96052.mp3" id="alertSound" preload="auto"></audio>
+    <script src="/script.js"></script>
+</body>
+</html>
