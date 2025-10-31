@@ -90,7 +90,6 @@ const addListItem = () => {
     const countdown = document.createElement('h5')
             
 const selectedDateAndTimeInput = document.getElementById('selectDateAndTimeInput').value
-    console.log(countdown.innerHTML);
     startTaskDate.className = 'dateAndTime'
     endTaskDate.className = 'dateAndTime'
     startTaskDate.id = 'startTaskDate'
