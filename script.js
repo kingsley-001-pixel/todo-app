@@ -34,7 +34,7 @@ toggleBtn.addEventListener('click', () => {
 setInterval (function getTimeAndDate() {
     var date = new Date()
     const daysOfTheWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
-    const monthsOfTheYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'Decmeber']
+    const monthsOfTheYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
     const month = monthsOfTheYear[date.getMonth()]
     const day = daysOfTheWeek[date.getDay()]
     const hour = date.getHours()
