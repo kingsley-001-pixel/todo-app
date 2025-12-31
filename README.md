@@ -33,7 +33,7 @@ A clean and modern Todo List App that helps you manage tasks efficiently. It inc
 
     Kingsley Chukwudubem
 - GitHub: [kingsley-001-pixel](https://github.com/kingsley-001-pixel)
-- Email: kingsleydev26@gmail.com
+- Email: nexabuild555@gmail.com
 - Facebook: [Kingsley](https://www.facebook.com/profile.php?id=61562790652179)
 
 ## License
